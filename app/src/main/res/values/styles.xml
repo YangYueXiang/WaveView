@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="WaveView">
+        <attr name="wvType" format="enum">
+            <enum name="centerLine" value="0"/>
+            <enum name="single" value="1"/>
+        </attr>
+        <attr name="wvCenterLineColor" format="color" />
+        <attr name="wvCenterLineWidth" format="dimension" />
+        <attr name="wvLineColor" format="color" />
+        <attr name="wvLineWidth" format="dimension" />
+        <attr name="wvLineSpace" format="dimension" />
+    </declare-styleable>
+</resources>
